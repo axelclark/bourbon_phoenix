@@ -1,8 +1,10 @@
 /* This file is for your main application css. */
 @import "bourbon";
+@import "neat";
 
 .jumbotron {
   @include border-top-radius(5px);
   @include border-color(red green null blue);
   @include border-style(dashed null solid);
+  @include shift(-3);
 }

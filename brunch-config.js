@@ -1,3 +1,6 @@
+var neat = require("bourbon-neat").includePaths
+var bourbon = require("bourbon").includePaths 
+
 exports.config = {
   // See http://brunch.io/#documentation for docs.
   files: {
@@ -57,7 +60,7 @@ exports.config = {
     },
     sass: {
       options: {
-        includePaths: require("bourbon").includePaths
+        includePaths: bourbon.concat(neat) 
       }
     }
   },
