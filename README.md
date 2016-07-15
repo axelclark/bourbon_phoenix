@@ -3,6 +3,7 @@
 To install bourbon & neat:
 
 ~~~~
+npm install --save sass-brunch
 npm install --save bourbon
 npm install --save bourbon-neat
 ~~~~
